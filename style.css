@@ -1,0 +1,30 @@
+header {}
+
+header section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header section img.logo {
+    width: 12rem;
+    height: 12rem;
+    margin-right: 5rem;
+}
+
+header section img.avatar {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    border: 3px, solid, black;
+}
+
+header section img.icone {
+    width: 4rem;
+    height: 4rem;
+    display: block;
+}
+
+header section div i.bi bi-arrow-up-circle {
+    width: 3rem;
+}
