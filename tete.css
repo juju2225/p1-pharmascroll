@@ -19,16 +19,21 @@ main {
 }
 
 main h2 {
-    padding-top: 2rem;
+    padding-top: 6rem;
+    text-align: center;
+    font-size: 2.3rem;
+    color: var(--title-color);
+    font-weight: bolder;
 }
 
 main section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    justify-items: stretch;
     background-color: var(--background-section);
     padding: 5rem;
     border: 5rem solid var(--background-general);
+    justify-content: center;
 }
 
 main section article {
@@ -45,12 +50,32 @@ main section article.title {
 }
 
 main section article h3 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 2rem;
     margin-bottom: 4rem;
     font-weight: bolder;
     font-style: italic;
     color: var(--title-color);
+}
+
+main section article div.avis {
+    text-align: center;
+    font-weight: bold;
+
+    p {
+        margin: 1rem;
+        color: var(--title-color);
+
+        i {
+            color: #ffbb00;
+            font-size: larger;
+            vertical-align: 1px;
+        }
+
+        i:first-child {
+            padding-left: 0.5rem;
+        }
+    }
 }
 
 main section article img {
@@ -64,6 +89,8 @@ main section article p.button {
     background-color: var(--boutons-color);
     font-size: 1rem;
     padding: 0.5rem;
+
+    border-radius: 7px 7px 7px 7px;
 
     a {
         color: white;
