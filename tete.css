@@ -1,12 +1,23 @@
 * {
     box-sizing: border-box;
-    line-height: 1, 5rem;
+    line-height: 1.5rem;
+    text-decoration: none;
+}
+
+:root {
+    --font-color: #457B9D;
+    --font-color2: #A8DADC;
+    --title-color: #1d3557;
+    --boutons-color: #E63946;
+
 }
 
 main section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    background-color: #F1FAEE;
+    margin: 5rem;
 }
 
 main section article {
@@ -20,6 +31,10 @@ main section article {
 main section article h3 {
     font-size: 3rem;
     margin: 2rem;
+    margin-bottom: 4rem;
+    font-weight: bolder;
+    font-style: italic;
+    color: var(--title-color);
 }
 
 main section article img {
@@ -28,12 +43,69 @@ main section article img {
 
 main section article p {}
 
-main section article button {}
+main section article p.button {
+    margin: 2rem 0;
+    background-color: var(--boutons-color);
+    font-size: 1rem;
+    padding: 0.5rem;
+
+    a {
+        color: white;
+        padding: 1rem;
+        margin: 1rem;
+
+    }
+}
+
+main section article p.button:hover {
+
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
 
 
 main section article.right {
-    color: red;
-    background-color: blue;
+    color: var(--font-color)
+}
 
+main section article p.price {
+    color: var(--boutons-color);
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 2rem;
+}
 
+main section article p.stocks {
+    margin: 1rem;
+
+    a {
+        padding: 20px;
+        color: var(--title-color);
+    }
+
+    a:hover {
+        background-color: var(--title-color);
+        color: var(--font-color2);
+    }
+}
+
+main section article div.achat {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+main section article p.desc {
+    margin: 2rem;
+}
+
+main section article p {
+
+    i.bi-check-lg {
+        color: green;
+        font-size: 2rem;
+        vertical-align: -5px;
+        padding: 0.5rem;
+    }
 }
