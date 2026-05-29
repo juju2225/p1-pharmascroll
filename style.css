@@ -1,6 +1,24 @@
-header {
-    padding: 1.5rem;
+* {
+    box-sizing: border-box;
 }
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+header {
+    padding-top: 1.5rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+
+
+
 
 header section {
     display: flex;
@@ -10,28 +28,37 @@ header section {
 }
 
 header section img.logo {
-    width: 16rem;
-    height: auto;
+    height: 12rem;
     margin-top: 2rem;
     margin-right: 5rem;
 }
 
-header section img.avatar {
+header section a img.avatar {
     width: 7rem;
     height: 95%;
     border-radius: 50%;
     border: 3px, solid, black;
 }
 
-header section img.icone {
+header section a img:hover {
+    opacity: 0.5;
+}
+
+
+header section div a img.icone {
     width: 6rem;
     height: 6rem;
     display: block;
 }
 
-header section div i.fleche {
+header section div a i.fleche {
     font-size: 2rem;
     margin-left: 2.1rem;
+    color: black;
+}
+
+header section div a i.fleche:hover {
+    opacity: 0.5;
 }
 
 header section form {
@@ -51,14 +78,23 @@ header section form a i.loupe {
     color: black;
 }
 
+header section form a i.loupe:hover {
+    opacity: 0.5;
+}
+
+header nav {
+    box-shadow: 0px 16px 19px -4px #000000;
+    background-color: white;
+    padding-bottom: 1.3rem;
+}
+
 header nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 4rem;
     padding: 0;
-    padding-right: 2rem;
-    width: 35%;
+    padding-right: 3.5rem;
     margin: auto;
 
 }
@@ -131,4 +167,8 @@ footer section div {
 
 footer section img {
     vertical-align: -5px;
+
+    header nav ul li:hover {
+        opacity: 0.5;
+    }
 }
