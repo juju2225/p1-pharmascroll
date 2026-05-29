@@ -81,3 +81,54 @@ header nav ul li a {
     font-size: 1.4rem;
     font-weight: 600;
 }
+
+
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1d3557;
+    color: #a8dadc;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+
+footer section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+i {
+    color: #a8dadc
+}
+
+footer section div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+}
+
+footer section img {
+    vertical-align: -5px;
+}
