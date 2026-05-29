@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PharmaScroll</title>
+    <link rel="shortcut icon" href="images/logobasic.ico" type="image/x-icon">
+    <title>pharmaScroll | Votre santé, livrée en un scroll !</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,29 +15,83 @@
 
 <body>
     <header>
-        <img src="images/logo.png" alt="logo" />
-        <form action="">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
-        <img src="images/avatar.png" alt="photo de profil" />
-        <img src="images/icone-panier.png" alt="panier" />
-        <button> retourn en haut</button>
+        <section>
+            <img class="logo" src="images/logo.png" alt="logo" />
+            <form action="">
+                <input type="text" placeholder="Search.." name="search">
+                <a href="">
+                    <i class="fa fa-search loupe"></i>
+                </a>
+            </form>
+            <img class="avatar" src="images/avatar.png" alt="photo de profil" />
+            <div>
+                <img class="icone" src="images/icone-panier.png" alt="panier" />
+                <i class="bi bi-arrow-up-circle fleche"></i>
+            </div>
+        </section>
         <nav>
-            <i class="bi bi-list" style="font-size:40px; color:black;"></i>
+
+
             <ul>
-                <li><i class="bi bi-list"></i>Menu</li>
-                <li>Produits</li>
-                <li>Item2</li>
-                <li>Item3</li>
+                <li><i class="bi bi-list"></i></li>
+                <li><a href="produits.html">Produits</a></li>
+                <li><a href="Téléconsultation.html">Téléconsultation</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
 
     </header>
     <main>
-        <section>carrousel</section>
         <section>
-            section produits
+            <img src="images/logo.png" alt=description>
+            <img src="images/logo.png" alt=description>
+            <img src="images/logo.png" alt=description>
+        </section>
+
+        <section>
+            <h2>Produits recommandés</h2>
+            <div>
+                <article>
+                    <img src="images/MalalateteBox.png" alt="MalalateteBox" style="width: 100%;">
+                    <h2>MalalateteBox</h2>
+                    <p class="price">12,99€</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur nesciunt debitis .</p>
+                    <p><button>Ajouter au panier</button></p>
+                </article>
+
+                <article>
+                    <img src="images/FepachierBox.png" alt="FepachierBox" style="width: 100%;">
+                    <h2>FepachierBox</h2>
+                    <p class="price">12,99€</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur nesciunt debitis .</p>
+                    <p><button>Ajouter au panier</button></p>
+                </article>
+
+                <article>
+                    <img src="images/BahVaMieuxBox.png" alt="BahVaMieuxBox" style="width: 100%;">
+                    <h2>BahVaMieuxBox</h2>
+                    <p class="price">12,99€</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur nesciunt debitis .</p>
+                    <p><button>Ajouter au panier</button></p>
+                </article>
+
+                <article>
+                    <img src="images/MalopiedBox.png" alt="MalopiedBox" style="width: 100%;">
+                    <h2>MalopiedBox</h2>
+                    <p class="price">12,99€</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur nesciunt debitis .</p>
+                    <p><button>Ajouter au panier</button></p>
+                </article>
+                <button>Tous les Médicaments</button>
+                <article>
+                    <img src="images/MalopiedBox.png" alt="MalopiedBox" style="width: 100%;">
+                    <h2>MalopiedBox</h2>
+                    <p class="price">12,99€</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur nesciunt debitis .</p>
+                    <p><button>Ajouter au panier</button></p>
+                </article>
+                <button>Tous les Médicaments</button>
+            </div>
         </section>
 
         <button>button pour la page produits</button>
