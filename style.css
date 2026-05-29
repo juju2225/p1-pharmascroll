@@ -122,20 +122,72 @@ header nav ul li:hover {
     opacity: 0.5;
 }
 
-main section.offers {
+body main {
+    padding: 20px 30px;
+    background-color: #f5f6f7;
+}
+
+body main h1 {
+    text-align: center;
+    color: #1d3557;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 5%;
+}
+
+body main section {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 85%;
+    margin: auto;
+    border: 3px solid black;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); */
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+body main section img {
+    max-width: 30%;
+}
+
+.produit-recommandé {
     display: flex;
     flex-direction: column;
-
-    gap: 10px;
 }
 
-main section.offers article {
+.produit-recommandé article {
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+main section h2 {
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 200;
+    padding-block: 5%;
+}
+
+main section div {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    padding: 10%;
+    background-color: #F1FAEE;
 
-}
+    main section.offers {
+        display: flex;
+        flex-direction: column;
 
-main section.offers img {
-    width: 50%;
+        gap: 10px;
+    }
 
-}
+    main section.offers article {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    main section.offers img {
+        width: 50%;
+
+    }
