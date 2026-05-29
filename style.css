@@ -173,4 +173,21 @@ main section div {
     flex-direction: column;
     padding: 10%;
     background-color: #F1FAEE;
-}
+
+    main section.offers {
+        display: flex;
+        flex-direction: column;
+
+        gap: 10px;
+    }
+
+    main section.offers article {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    main section.offers img {
+        width: 50%;
+
+    }
