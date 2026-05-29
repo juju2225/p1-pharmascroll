@@ -1,5 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
 
 header {
@@ -11,6 +16,7 @@ header {
     background-color: white;
     z-index: 1000;
 }
+
 
 
 
@@ -45,12 +51,13 @@ header section div a img.icone {
     display: block;
 }
 
-header section div i.fleche {
+header section div a i.fleche {
     font-size: 2rem;
     margin-left: 2.1rem;
+    color: black;
 }
 
-header section div i.fleche:hover {
+header section div a i.fleche:hover {
     opacity: 0.5;
 }
 
@@ -87,7 +94,7 @@ header nav ul {
     align-items: center;
     gap: 4rem;
     padding: 0;
-    padding-right: 2rem;
+    padding-right: 3.5rem;
     margin: auto;
 
 }
