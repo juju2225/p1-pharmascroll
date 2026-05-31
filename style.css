@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+:root {
+    --font-color: #457B9D;
+    --font-color2: #A8DADC;
+    --title-color: #1d3557;
+    --boutons-color: #E63946;
+    --background-general: #f5f6f7;
+    --background-section: #F1FAEE;
+
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
@@ -124,7 +134,7 @@ header nav ul li:hover {
 
 body main {
     padding: 20px 30px;
-    background-color: #f5f6f7;
+    background-color: var(--background-general);
 }
 
 body main h1 {
@@ -141,24 +151,73 @@ body main section {
     max-width: 85%;
     margin: auto;
     border: 3px solid black;
-    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); */
     border-radius: 20px;
     margin-bottom: 20px;
 }
 
-body main section img {
+.banner img {
+    display: flex;
     max-width: 30%;
+    height: auto;
+    object-fit: contain;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    margin: 2rem 0;
+    background-color: var(--boutons-color);
+    font-size: 1rem;
+    padding: 0.5rem;
+
+    border-radius: 7px 7px 7px 7px;
+
+    a {
+        color: white;
+        padding: 1rem;
+        margin: 1rem;
+
+    }
+}
+
+.card button:hover {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    transition: 0.2s;
 }
 
 .produit-recommandé {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--background-section);
 }
 
 .produit-recommandé article {
     border: 1px solid black;
     border-radius: 20px;
     margin-bottom: 20px;
+    background-color: white;
+}
+
+.produit-recommandé article h3 {
+    text-align: center;
+}
+
+.produit-recommandé article img {
+    display: block;
+    width: 100%;
 }
 
 main section h2 {
@@ -170,24 +229,25 @@ main section h2 {
 
 main section div {
     display: flex;
+    justify-content: space-evenly;
+    margin: 5%;
+    gap: 5%;
+}
+
+main section.offers {
+    display: flex;
     flex-direction: column;
-    padding: 10%;
-    background-color: #F1FAEE;
 
-    main section.offers {
-        display: flex;
-        flex-direction: column;
+    gap: 10px;
+}
 
-        gap: 10px;
-    }
+main section.offers article {
+    display: flex;
+    justify-content: center;
 
-    main section.offers article {
-        display: flex;
-        justify-content: center;
+}
 
-    }
+main section.offers img {
+    width: 50%;
 
-    main section.offers img {
-        width: 50%;
-
-    }
+}
