@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 :root {
@@ -204,6 +205,27 @@ body main#home h1 {
     padding: 5%;
 }
 
+/* Add center to that div.all */
+body main#home div.all {
+    background-color: var(--boutons-color);
+    color: #ffffff;
+    padding: 1rem;
+    width: fit-content;
+    margin: 2rem 0;
+    border-radius: 7px 7px 7px 7px;
+
+    a {
+        color: white;
+        padding: 1rem;
+    }
+}
+
+body main#home div.all:hover {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    transition: 0.2s;
+}
+
 body main#home section {
     display: flex;
     justify-content: space-evenly;
@@ -230,7 +252,7 @@ body main#home section {
 }
 
 .price {
-    color: grey;
+    color: var(--boutons-color);
     font-size: 22px;
 }
 
