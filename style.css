@@ -316,7 +316,7 @@ body main#products {
     margin: auto;
 }
 
-body #products h1 {
+body main#products h1 {
     margin-top: 3rem;
     text-align: center;
     font-size: 3rem;
@@ -324,7 +324,7 @@ body #products h1 {
     color: #1d3557;
 }
 
-body #products section {
+body main#products section {
     background-color: #F1FAEE;
     border: #1d3557 1px solid;
     display: grid;
