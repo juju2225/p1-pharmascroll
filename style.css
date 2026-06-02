@@ -305,3 +305,53 @@ footer section img {
         width: 50%;
 
     }
+
+    /* here we have css of file's products */
+
+    body main#products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    body #products h1 {
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 600;
+        color: #1d3557;
+    }
+
+    body #products section {
+        background-color: #F1FAEE;
+        border: #1d3557 1px solid;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 12fr;
+        width: 80%;
+        margin-top: 1.5rem;
+
+    }
+
+    body main#products section h2 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        text-align: center;
+    }
+
+    body main#products section article {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: #1d3557 1px solid;
+        margin: 1rem;
+
+    }
+
+    body main#products section article img {
+        width: 70%;
+    }
+
+    /* end css of file's products */
