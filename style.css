@@ -248,7 +248,7 @@ body main#home section {
 }
 
 .price {
-    color: grey;
+    color: var(--boutons-color);
     font-size: 22px;
 }
 
