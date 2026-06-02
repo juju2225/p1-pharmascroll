@@ -128,16 +128,71 @@ header nav ul li a {
     font-weight: 600;
 }
 
+
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1d3557;
+    color: #a8dadc;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+
+footer section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+i {
+    color: #a8dadc
+}
+
+footer section div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+}
+
+footer section img {
+    vertical-align: -5px;
+}
+
 header nav ul li:hover {
     opacity: 0.5;
 }
 
-body main#home {
+header nav ul li:hover {
+    opacity: 0.5;
+}
+
+body main {
     padding: 20px 30px;
     background-color: var(--background-general);
 }
 
-body main#home h1 {
+body main h1 {
     text-align: center;
     color: #1d3557;
     font-size: 3rem;
@@ -145,7 +200,7 @@ body main#home h1 {
     padding: 5%;
 }
 
-body main#home section {
+body main section {
     display: flex;
     justify-content: space-evenly;
     max-width: 85%;
@@ -220,34 +275,84 @@ body main#home section {
     width: 100%;
 }
 
-main#home section h2 {
+main section h2 {
     text-align: center;
     font-size: 2.3rem;
     font-weight: 200;
     padding-block: 5%;
 }
 
-main#home section div {
+main section div {
     display: flex;
     justify-content: space-evenly;
     margin: 5%;
     gap: 5%;
 }
 
-main#home section.offers {
+main section.offers {
     display: flex;
     flex-direction: column;
 
     gap: 10px;
 }
 
-main#home section.offers article {
+main section.offers article {
     display: flex;
     justify-content: center;
 
 }
 
-main#home section.offers img {
+main section.offers img {
     width: 50%;
 
 }
+
+/* here we have css of file's products */
+
+body main#products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+body main#products h1 {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #1d3557;
+}
+
+body main#products section {
+    background-color: #F1FAEE;
+    border: #1d3557 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 12fr;
+    width: 80%;
+    margin-top: 1.5rem;
+
+}
+
+body main#products section h2 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+}
+
+body main#products section article {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #1d3557 1px solid;
+    margin: 1rem;
+
+}
+
+body main#products section article img {
+    width: 70%;
+}
+
+/* end css of file's products */
