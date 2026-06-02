@@ -19,11 +19,12 @@ main#head {
 }
 
 main#head h2 {
-    padding-top: 6rem;
+    padding-top: 4rem;
     text-align: center;
     font-size: 2.3rem;
     color: var(--title-color);
     font-weight: bolder;
+    margin-bottom: 5rem;
 }
 
 main#head section {
@@ -34,6 +35,10 @@ main#head section {
     padding: 5rem;
     border: 5rem solid var(--background-general);
     justify-content: center;
+    max-width: 85%;
+    border: 3px solid black;
+    border-radius: 20px;
+
 }
 
 main#head section article {
@@ -81,8 +86,6 @@ main#head section article div.avis {
 main#head section article img {
     width: 500px;
 }
-
-main#head section article p {}
 
 main#head section article p.button {
     margin: 2rem 0;
