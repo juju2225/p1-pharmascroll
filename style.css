@@ -132,12 +132,12 @@ header nav ul li:hover {
     opacity: 0.5;
 }
 
-body main {
+body main#home {
     padding: 20px 30px;
     background-color: var(--background-general);
 }
 
-body main h1 {
+body main#home h1 {
     text-align: center;
     color: #1d3557;
     font-size: 3rem;
@@ -145,7 +145,7 @@ body main h1 {
     padding: 5%;
 }
 
-body main section {
+body main#home section {
     display: flex;
     justify-content: space-evenly;
     max-width: 85%;
@@ -220,34 +220,34 @@ body main section {
     width: 100%;
 }
 
-main section h2 {
+main#home section h2 {
     text-align: center;
     font-size: 2.3rem;
     font-weight: 200;
     padding-block: 5%;
 }
 
-main section div {
+main#home section div {
     display: flex;
     justify-content: space-evenly;
     margin: 5%;
     gap: 5%;
 }
 
-main section.offers {
+main#home section.offers {
     display: flex;
     flex-direction: column;
 
     gap: 10px;
 }
 
-main section.offers article {
+main#home section.offers article {
     display: flex;
     justify-content: center;
 
 }
 
-main section.offers img {
+main#home section.offers img {
     width: 50%;
 
 }
