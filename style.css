@@ -320,12 +320,12 @@ header nav ul li:hover {
     opacity: 0.5;
 }
 
-body main {
+body main#home {
     padding: 20px 30px;
     background-color: var(--background-general);
 }
 
-body main h1 {
+body main#home h1 {
     text-align: center;
     color: #1d3557;
     font-size: 3rem;
@@ -333,12 +333,12 @@ body main h1 {
     padding: 5%;
 }
 
-body main section {
+body main#home section {
     display: flex;
     justify-content: space-evenly;
     max-width: 85%;
     margin: auto;
-    border: 3px solid black;
+    border: 3px solid var(--title-color);
     border-radius: 20px;
     margin-bottom: 20px;
 }
@@ -408,34 +408,34 @@ body main section {
     width: 100%;
 }
 
-main section h2 {
+main#home section h2 {
     text-align: center;
     font-size: 2.3rem;
     font-weight: 200;
     padding-block: 5%;
 }
 
-main section div {
+main#home section div {
     display: flex;
     justify-content: space-evenly;
     margin: 5%;
     gap: 5%;
 }
 
-main section.offers {
+main#home section.offers {
     display: flex;
     flex-direction: column;
 
     gap: 10px;
 }
 
-main section.offers article {
+main#home section.offers article {
     display: flex;
     justify-content: center;
 
 }
 
-main section.offers img {
+main#home section.offers img {
     width: 50%;
 
 }
@@ -449,7 +449,7 @@ body main#products {
     margin: auto;
 }
 
-body #products h1 {
+body main#products h1 {
     margin-top: 3rem;
     text-align: center;
     font-size: 3rem;
@@ -457,14 +457,13 @@ body #products h1 {
     color: #1d3557;
 }
 
-body #products section {
+body main#products section {
     background-color: #F1FAEE;
-    border: #1d3557 1px solid;
+    border: 3px solid var(--title-color);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 12fr;
     width: 80%;
-    margin-top: 1.5rem;
+
 
 }
 
@@ -480,12 +479,18 @@ body main#products section article {
     flex-direction: column;
     align-items: center;
     border: #1d3557 1px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
     margin: 1rem;
+    padding: 2rem;
+    text-align: center;
 
 }
 
 body main#products section article img {
-    width: 70%;
+    width: 100%;
 }
+
+body main#products section article p {}
 
 /* end css of file's products */
