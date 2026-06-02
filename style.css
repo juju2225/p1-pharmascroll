@@ -201,6 +201,7 @@ body main h1 {
     padding: 5%;
 }
 
+/* Add center to that div.all */
 body main#home div.all {
     background-color: var(--boutons-color);
     color: #ffffff;
