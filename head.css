@@ -82,8 +82,6 @@ main#head section article img {
     width: 500px;
 }
 
-main#head section article p {}
-
 main#head section article p.button {
     margin: 2rem 0;
     background-color: var(--boutons-color);
