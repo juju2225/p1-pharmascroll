@@ -266,7 +266,6 @@ main section.offers img {
 
 
 footer {
-    border-radius: ;
     display: flex;
     flex-direction: column;
     background-color: #1d3557;
@@ -310,10 +309,8 @@ footer section div {
 
 footer section img {
     vertical-align: -5px;
-<<<<<<< HEAD
 }
-=======
-}
+
 
 header nav ul li:hover {
     opacity: 0.5;
@@ -492,4 +489,3 @@ body main#products section article img {
 }
 
 /* end css of file's products */
->>>>>>> main
