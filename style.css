@@ -351,11 +351,11 @@ body main#products {
 }
 
 body main#products h1 {
-    margin-top: 3rem;
     text-align: center;
+    color: #1d3557;
     font-size: 3rem;
     font-weight: 600;
-    color: #1d3557;
+    padding: 5%;
 }
 
 body main#products section {
@@ -364,6 +364,8 @@ body main#products section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 80%;
+    margin-bottom: 1.5rem;
+    border-radius: 20px;
 
 
 }
@@ -372,6 +374,9 @@ body main#products section h2 {
     grid-column-start: 1;
     grid-column-end: 5;
     text-align: center;
+    font-size: 2.3rem;
+    padding: 2%;
+    font-weight: 200;
 }
 
 body main#products section article {
@@ -390,9 +395,12 @@ body main#products section article {
 
 body main#products section article img {
     width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
 }
 
-body main#products section article p {}
+
 
 /* end css of file's products */
 
