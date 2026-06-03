@@ -369,6 +369,7 @@ body main#products {
     flex-direction: column;
     align-items: center;
     margin: auto;
+    padding-bottom: 4rem;
 }
 
 body main#products h1 {
@@ -385,8 +386,9 @@ body main#products section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 80%;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 
 
 }
@@ -419,6 +421,24 @@ body main#products section article img {
     aspect-ratio: 4 / 3;
     object-fit: cover;
     display: block;
+}
+
+body main#products section article h3 a {
+    color: #000000;
+}
+
+body main#products section article p button {
+    margin: 2rem 0;
+    background-color: var(--boutons-color);
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 7px 7px 7px 7px;
+}
+
+body main#products section article p button:hover {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    transition: 0.2s;
 }
 
 
