@@ -310,6 +310,7 @@ main#home section h2 {
     font-size: 2.3rem;
     font-weight: 200;
     padding-block: 5%;
+    color: var(--title-color);
 }
 
 main#home section div {
@@ -322,20 +323,22 @@ main#home section div {
 main#home section.offers {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: var(--background-section);
+    padding-bottom: 5%;
 }
 
 main#home section.offers article {
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 
 main#home section.offers img {
     width: 50%;
-
-
+    border-radius: 20px;
 }
 
 /* here we have css of file's products */
