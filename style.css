@@ -239,6 +239,7 @@ body main#home section {
     border: 3px solid var(--title-color);
     border-radius: 20px;
     margin-bottom: 20px;
+    background-color: var(--background-section);
 }
 
 .banner img {
