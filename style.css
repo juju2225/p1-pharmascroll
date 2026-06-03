@@ -326,7 +326,7 @@ main#home section div {
 main#home section.offers {
     display: flex;
     flex-direction: column;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     background-color: var(--background-section);
     padding-bottom: 5%;
 }
@@ -481,7 +481,7 @@ main#head section {
     max-width: 85%;
     border: 3px solid black;
     border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 
 }
 
