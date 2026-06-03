@@ -397,8 +397,14 @@ main#head {
     padding-bottom: 10rem;
 }
 
+main#head a#return {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    align-self: flex-start;
+}
+
 main#head h2 {
-    padding-top: 4rem;
+    margin-top: 4rem;
     text-align: center;
     font-size: 2.3rem;
     color: var(--title-color);
