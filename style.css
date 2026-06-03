@@ -196,6 +196,10 @@ header nav ul li:hover {
 body main#home {
     padding: 20px 30px;
     background-color: var(--background-general);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 body main#home h1 {
@@ -206,7 +210,6 @@ body main#home h1 {
     padding: 5%;
 }
 
-/* Add center to that div.all */
 body main#home div.all {
     background-color: var(--boutons-color);
     color: #ffffff;
@@ -214,6 +217,7 @@ body main#home div.all {
     width: fit-content;
     margin: 2rem 0;
     border-radius: 7px 7px 7px 7px;
+
 
     a {
         color: white;
@@ -247,7 +251,6 @@ body main#home section {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    margin: auto;
     text-align: center;
     font-family: arial;
 }
@@ -319,8 +322,8 @@ main#home section div {
 main#home section.offers {
     display: flex;
     flex-direction: column;
-
     gap: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 main#home section.offers article {
@@ -331,6 +334,7 @@ main#home section.offers article {
 
 main#home section.offers img {
     width: 50%;
+
 
 }
 
@@ -406,8 +410,14 @@ main#head {
     padding-bottom: 10rem;
 }
 
+main#head a#return {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    align-self: flex-start;
+}
+
 main#head h2 {
-    padding-top: 4rem;
+    margin-top: 4rem;
     text-align: center;
     font-size: 2.3rem;
     color: var(--title-color);
@@ -426,6 +436,7 @@ main#head section {
     max-width: 85%;
     border: 3px solid black;
     border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
 }
 
