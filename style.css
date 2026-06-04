@@ -267,7 +267,14 @@ body main#home section.banner {
 .produit-recommandé {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 85%;
+    margin: auto;
+    border: 3px solid var(--title-color);
+    border-radius: 20px;
     background-color: var(--background-section);
+    margin-bottom: 5%;
+    padding: 1%;
+
 }
 
 .produit-recommandé h2 {
@@ -276,6 +283,7 @@ body main#home section.banner {
     font-size: 2.3rem;
     padding: 2%;
     font-weight: 200;
+    color: var(--title-color);
 }
 
 .produit-recommandé article {
@@ -297,27 +305,26 @@ body main#home section.banner {
     display: block;
 }
 
-/* main#home section h2 {
+main#home section.offers h2 {
     text-align: center;
     font-size: 2.3rem;
     font-weight: 200;
     padding-block: 5%;
     color: var(--title-color);
-} */
+}
 
-/* main#home section div {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 5%;
-    gap: 5%;
-} */
 
 main#home section.offers {
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-    background-color: var(--background-section);
     padding-bottom: 5%;
+    max-width: 85%;
+    margin: auto;
+    border: 3px solid var(--title-color);
+    border-radius: 20px;
+    background-color: var(--background-section);
+    margin-bottom: 5%;
 }
 
 main#home section.offers article {
