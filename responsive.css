@@ -8,24 +8,43 @@
 
         nav {
             display: none;
+            flex-direction: column;
         }
+    }
+
+    body main#home h1 {
+        font-size: 1.7em;
+    }
+
+    .produit-recommandé {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
     }
 
+<<<<<<< HEAD
     header a {
         width: 50%
     }
 
+=======
+    .produit-recommandé article.card {
+        width: 75%;
+    }
+>>>>>>> main
 
-
-    ;
+    footer section,
+    footer,
+    footer article {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 480px) {
     header {
         flex-direction: column;
-
-
     }
 
     header>a {
@@ -36,5 +55,27 @@
 
     header>img {
         width: 150%;
+    }
+
+    body main#home h1 {
+        font-size: 1.3em;
+    }
+
+    main#home section h2 {
+        font-size: 1.3em;
+    }
+
+    main#home section.offers h2 {
+        font-size: 1.3em;
+    }
+
+    main#home section.offers article {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    main#home section.offers article img {
+        margin-bottom: 3%;
     }
 }
