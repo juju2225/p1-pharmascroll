@@ -35,8 +35,8 @@ header {
 }
 
 
-header img.logo {
-    width: 10%;
+header a img.logo {
+    width: 50%;
 }
 
 header nav {
