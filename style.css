@@ -165,7 +165,6 @@ footer article {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    justify-content: space-between;
 }
 
 footer i {
@@ -228,7 +227,7 @@ body main#home a#link-products:hover {
     transition: 0.2s;
 }
 
-body main#home section {
+body main#home section.banner {
     display: flex;
     justify-content: space-evenly;
     max-width: 85%;
@@ -236,6 +235,7 @@ body main#home section {
     border: 3px solid var(--title-color);
     border-radius: 20px;
     background-color: var(--background-section);
+    margin-bottom: 5%;
 }
 
 .banner img {
@@ -246,10 +246,29 @@ body main#home section {
 }
 
 .card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #1d3557 1px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 5%;
+    padding: 1%;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     text-align: center;
-    font-family: arial;
+    font-family: arial; */
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
 }
 
 .price {
@@ -261,16 +280,9 @@ body main#home section {
     margin: 2rem 0;
     background-color: var(--boutons-color);
     font-size: 1rem;
-    padding: 0.5rem;
-
+    padding: 2%;
+    color: white;
     border-radius: 7px 7px 7px 7px;
-
-    a {
-        color: white;
-        padding: 1rem;
-        margin: 1rem;
-
-    }
 }
 
 .card button:hover {
@@ -280,10 +292,17 @@ body main#home section {
 }
 
 .produit-recommandé {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: var(--background-section);
+}
+
+.produit-recommandé h2 {
+    grid-column: 1/5;
+    text-align: center;
+    font-size: 2.3rem;
+    padding: 2%;
+    font-weight: 200;
 }
 
 .produit-recommandé article {
@@ -291,6 +310,7 @@ body main#home section {
     border-radius: 20px;
     margin-bottom: 20px;
     background-color: white;
+    justify-content: space-between;
 }
 
 .produit-recommandé article h3 {
@@ -304,20 +324,20 @@ body main#home section {
     display: block;
 }
 
-main#home section h2 {
+/* main#home section h2 {
     text-align: center;
     font-size: 2.3rem;
     font-weight: 200;
     padding-block: 5%;
     color: var(--title-color);
-}
+} */
 
-main#home section div {
+/* main#home section div {
     display: flex;
     justify-content: space-evenly;
     margin: 5%;
     gap: 5%;
-}
+} */
 
 main#home section.offers {
     display: flex;
