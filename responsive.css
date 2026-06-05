@@ -33,6 +33,10 @@
         flex-direction: column;
         align-items: center;
     }
+
+    main#home section a.responsive-image-tablet {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -70,5 +74,9 @@
 
     main#home section.offers article img {
         margin-bottom: 3%;
+    }
+
+    main#home section a.responsive-image-mobile {
+        display: none;
     }
 }
