@@ -28,7 +28,8 @@
         width: 75%;
     }
 
-    body main#products section h2 .produit-recommandé {
+    body main#products section h2,
+    .produit-recommandé {
         display: flex;
         flex-direction: column;
         align-items: center;
