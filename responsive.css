@@ -81,7 +81,8 @@
         font-size: 1.3em;
     }
 
-    body main#products section main#home section.offers article {
+    body main#products section,
+    main#home section.offers article {
         flex-direction: column;
         align-items: center;
         margin-bottom: 5%;
