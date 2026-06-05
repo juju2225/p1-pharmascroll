@@ -208,6 +208,7 @@ body main#home section.banner {
     border-radius: 20px;
     background-color: var(--background-section);
     margin-bottom: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
 
@@ -273,6 +274,7 @@ body main#home section article h3 a {
     background-color: var(--background-section);
     margin-bottom: 5%;
     padding: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 
 }
 
@@ -366,6 +368,7 @@ body main#products {
     align-items: center;
     margin: auto;
     padding-bottom: 5%;
+    background-color: var(--background-general);
 }
 
 body main#products h1 {
